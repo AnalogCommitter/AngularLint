@@ -1,2 +1,2 @@
 # AngularLint
-Linting of an Angular Project
+Linting of an Angular Project and displaying in Jenkins Dashboard
