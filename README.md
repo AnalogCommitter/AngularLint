@@ -63,6 +63,6 @@ Hier sehen Sie, ob das Build erfolgreich war, oder nicht.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step10.png)
 
-Wenn Sie auf "Testergebnis" clicken, sehen Sie, welche Tests erfolgreich waren und welche nicht. (Wenn der "Testergebnis" Tab nicht da ist, aktualisieren sie die Seite.)
+Wenn Sie auf "Testergebnis" clicken, sehen Sie, welche Tests erfolgreich waren und welche nicht. (Wenn der "Testergebnis" Tab nicht da ist, aktualisieren Sie die Seite.)
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step11.png)
