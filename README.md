@@ -28,7 +28,7 @@ Wählen Sie "Windows Batch-Datei ausführen"
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step4.png)
 
-**Unit Testing** Geben Sie den Command "dotnet test \<project-root\>" ein.
+**Unit Testing** Geben Sie den Command "dotnet test *project-root* --logger "trx;LogFileName=*project-root*\unittestResults.xml"" ein. *project-root* braucht man nur, wenn das Git-Repo-root nicht das project-root ist. 
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
   
@@ -38,25 +38,30 @@ Wählen Sie "Windows Batch-Datei ausführen"
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5-lint.PNG)
 
-Speichern Sie die Konfigurationen.
+Bei Post-Build-Aktionen:
+Wählen Sie "Publish xUnit test result report", dann bei Report Type "MSTest-Version N/A (default)", und geben Sie bei Includes Pattern "\*\*\unittestResults.xml" ein
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step6.png)
 
-Clicken Sie auf "Jetzt bauen".
+Speichern Sie die Konfigurationen.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step7.png)
 
-Sobald es abgeschlossen ist, clicken Sie auf das Build.
+Clicken Sie auf "Jetzt bauen".
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step8.png)
 
-Hier sehen Sie, ob das Build erfolgreich war, oder nicht.
+Sobald es abgeschlossen ist, clicken Sie auf das Build.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step9.png)
 
-Bei der Konsolenausgabe sehen Sie nun, welche Tests erfolgreich waren, und welche nicht.
+Hier sehen Sie, ob das Build erfolgreich war, oder nicht.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step10.png)
+
+Bei der Konsolenausgabe sehen Sie nun, welche Tests erfolgreich waren, und welche nicht.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step11.png)
 
 ### Anzeigen von Test Results
 
