@@ -7,7 +7,7 @@ Linting of an Angular Project and displaying in Jenkins Dashboard
 
 Zunächst legen wir ein neues Projekt an. Klicken Sie dazu auf "Element anlegen".
 
-![](images/step1.png)
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step1.png)
 
 Geben Sie einen Namen ein und wählen Sie "Free Style Softwareprojekt bauen"
 Clicken Sie OK.
