@@ -57,3 +57,9 @@ Hier sehen Sie, ob das Build erfolgreich war, oder nicht.
 Bei der Konsolenausgabe sehen Sie nun, welche Tests erfolgreich waren, und welche nicht.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step10.png)
+
+### Anzeigen von Test Results
+
+Um den Überblick über den Status der durchgeführten Tests zu behalten, benutzen wir das XUnit Jenkins Plugin:
+
+
