@@ -1,9 +1,13 @@
-# AngularLint
-Linting of an Angular Project and displaying in Jenkins Dashboard
+# Jenkins Unit Testing und Linting
 
-# Unit Testing with Jenkins
+## Einführung
+
+Jenkins ermöglicht es, bestimmte Befehle mithilfe von Jobs auszuführen. In diesem Referat möchten wir dies anhand von 
+einem Lint-Job und einem UnitTest-Job (Asp-Net Rest-Api) erklären.
 
 ## Live Demo
+
+### Genereller Aufbau
 
 Zunächst legen wir ein neues Projekt an. Klicken Sie dazu auf "Element anlegen".
 
@@ -24,7 +28,13 @@ Wählen Sie "Windows Batch-Datei ausführen"
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step4.png)
 
-Geben Sie den Command "dotnet test <Project-root>" ein.
+**Unit Testing** Geben Sie den Command "dotnet test <project-root>" ein.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
+  
+### oder
+    
+**Linting** Geben Sie den Command "npm run lint" ein.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
 
