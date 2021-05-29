@@ -36,7 +36,7 @@ Wählen Sie "Windows Batch-Datei ausführen"
     
 **Linting** Geben Sie den Command "npm run lint" ein.
 
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5-lint.PNG)
 
 Speichern Sie die Konfigurationen.
 
