@@ -28,7 +28,7 @@ Wählen Sie "Windows Batch-Datei ausführen"
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step4.png)
 
-**Unit Testing** Geben Sie den Command "dotnet test $>$project-root$>$" ein.
+**Unit Testing** Geben Sie den Command "dotnet test \<project-root\>" ein.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
   
