@@ -9,6 +9,10 @@ einem Lint-Job und einem UnitTest-Job (Asp-Net Rest-Api) erklären.
 
 ### Genereller Aufbau
 
+Um den Test Report im Dashboard zu sehen, brauchen sie das XUnit plugin.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/plugins.png)
+
 Zunächst legen wir ein neues Projekt an. Klicken Sie dazu auf "Element anlegen".
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step1.png)
@@ -59,12 +63,6 @@ Hier sehen Sie, ob das Build erfolgreich war, oder nicht.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step10.png)
 
-Bei der Konsolenausgabe sehen Sie nun, welche Tests erfolgreich waren, und welche nicht.
+Wenn Sie auf "Testergebnis" clicken, sehen Sie, welche Tests erfolgreich waren und welche nicht. (Wenn der "Testergebnis" Tab nicht da ist, aktualisieren sie die Seite.)
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step11.png)
-
-### Anzeigen von Test Results
-
-Um den Überblick über den Status der durchgeführten Tests zu behalten, benutzen wir das XUnit Jenkins Plugin:
-
-
