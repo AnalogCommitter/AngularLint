@@ -17,7 +17,7 @@ Clicken Sie OK.
 Bei Source-Code-Management:
 Wählen Sie "Git" und geben Sie ihre Repository URL und den Branch an.
 
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step3.png))
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step3.png)
 
 Bei Buildverfahren:
 Wählen Sie "Windows Batch-Datei ausführen"
