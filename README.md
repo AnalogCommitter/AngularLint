@@ -27,6 +27,8 @@ Wählen Sie "Git" und geben Sie ihre Repository URL und den Branch an.
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step3.png)
 
+> Wir benutzen den HTTPS Link, weil wir Jenkins auf dem LocalHost laufen lassen
+
 Bei Buildverfahren:
 Wählen Sie "Windows Batch-Datei ausführen"
 
@@ -40,6 +42,15 @@ Bei Post-Build-Aktionen:
 Wählen Sie "Publish xUnit test result report", dann bei Report Type "MSTest-Version N/A (default)", und geben Sie bei Includes Pattern "\*\*\unittestResults.xml" ein
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step6.png)
+
+`dotnet test` führt Tests vom angegebenen Dot Net Projekt aus
+
+`/<project-root/>` = Formula1 (od. ggf. repo root (default))
+
+`--logger "trx;LogFileName=project-root\unittestResults.xml` = dass die Ergebnisse in das nach --logger angegebene File gespeichert werden sollen
+
+-> dieses File ist dann auch das Pattern für die Ausgabe der Test Results (damit das Plugin weiß,
+was angezeigt werden soll)
   
 ### oder
     
