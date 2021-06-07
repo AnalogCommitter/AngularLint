@@ -97,8 +97,8 @@ D:\Schule\4. Klasse\PROO\C#\05.Formula1\Formula1.CoreTest\obj\Debug\netcoreapp3.
 D:\Schule\4. Klasse\PROO\C#\05.Formula1\Formula1.CoreTest\obj\Debug\netcoreapp3.1\Formula1.CoreTest.dll
 D:\Schule\4. Klasse\PROO\C#\05.Formula1\Formula1.CoreTest\obj\Debug\netcoreapp3.1\Formula1.CoreTest.pdb
 D:\Schule\4. Klasse\PROO\C#\05.Formula1\Formula1.CoreTest\obj\Debug\netcoreapp3.1\Formula1.CoreTest.genruntimeconfig.cache
-D:\Schule\4. Klasse\PROO\AngularLint\Formula1\Formula1.CoreTest\bin\Debug\netcoreapp3.1\testhost.exe
 D:\Schule\4. Klasse\PROO\AngularLint\Formula1\Formula1.CoreTest\bin\Debug\netcoreapp3.1\testhost.dll
+D:\Schule\4. Klasse\PROO\AngularLint\Formula1\Formula1.CoreTest\bin\Debug\netcoreapp3.1\testhost.exe
 D:\Schule\4. Klasse\PROO\AngularLint\Formula1\Formula1.CoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Schule\4. Klasse\PROO\AngularLint\Formula1\Formula1.CoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Schule\4. Klasse\PROO\AngularLint\Formula1\Formula1.CoreTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll

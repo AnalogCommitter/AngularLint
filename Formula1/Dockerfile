@@ -5,4 +5,5 @@ COPY ["Formula1.CoreTest/Formula1.CoreTest.csproj", "Formula1.CoreTest/"]
 COPY ["Utils/Utils.csproj", "Utils/"]
 RUN dotnet restore "Formula1.Core/Formula1.Core.csproj"
 COPY . .
+RUN dotnet clean
 RUN dotnet test --logger "trx;LogFileName=unittestResults.xml"
