@@ -33,29 +33,5 @@ namespace Formula1.CoreTest
             Assert.AreEqual(28, teamResults[8].Points);
         }
 
-        [TestMethod()]
-        public void R03_GetFastestRoundsTeamTest()
-        {
-            var teamResults = ResultCalculator.GetFastestRoundsPerTeamTable();
-            Assert.AreEqual("Mercedes", teamResults[0].Competitor.Name);
-            Assert.AreEqual(9, teamResults[0].Points);
-            Assert.AreEqual("Ferrari", teamResults[1].Competitor.Name);
-            Assert.AreEqual(6, teamResults[1].Points);
-            Assert.AreEqual("Red Bull", teamResults[2].Competitor.Name);
-            Assert.AreEqual(5, teamResults[2].Points);
-        }
-
-        [TestMethod()]
-        public void R03_GetFastestRoundsDriverTest()
-        {
-            var driverResults = ResultCalculator.GetFastestRoundsPerDriverTable();
-            Assert.AreEqual("Hamilton Lewis", driverResults[0].Competitor.Name);
-            Assert.AreEqual(6, driverResults[0].Points);
-            Assert.AreEqual("Leclerc Charles", driverResults[1].Competitor.Name);
-            Assert.AreEqual(4, driverResults[1].Points);
-            Assert.AreEqual("Vettel Sebastian", driverResults[5].Competitor.Name);
-            Assert.AreEqual(2, driverResults[5].Points);
-        }
-
     }
 }
