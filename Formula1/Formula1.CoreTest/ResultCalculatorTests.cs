@@ -36,13 +36,7 @@ namespace Formula1.CoreTest
         [TestMethod()]
         public void R03_GetFastestRoundsTeamTest()
         {
-            var teamResults = ResultCalculator.GetFastestRoundsPerTeamTable();
-            Assert.AreEqual("Mercedes", teamResults[0].Competitor.Name);
-            Assert.AreEqual(9, teamResults[0].Points);
-            Assert.AreEqual("Ferrari", teamResults[1].Competitor.Name);
-            Assert.AreEqual(6, teamResults[1].Points);
-            Assert.AreEqual("Red Bull", teamResults[2].Competitor.Name);
-            Assert.AreEqual(5, teamResults[2].Points);
+            
         }
 
         [TestMethod()]
