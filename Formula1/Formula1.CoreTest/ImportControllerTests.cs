@@ -19,6 +19,9 @@ namespace Formula1.CoreTest
             Assert.AreEqual(1, races.First().Number);
             Assert.AreEqual("Abu Dhabi", races.Last().City);
             Assert.AreEqual(21, races.Last().Number);
+
+
+            Assert.AreEqual(-1, races.Last().Number);
         }
 
         /// <summary>
