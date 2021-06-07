@@ -1,3 +1,4 @@
+cd Formula1
 docker build -t formula1 . 
 docker rm formula1-tests 
 docker run --name formula1-tests formula1 
