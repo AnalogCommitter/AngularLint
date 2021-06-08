@@ -9,6 +9,35 @@ einem Lint-Job und einem UnitTest-Job (Asp-Net Rest-Api) erklären.
 
 ### Genereller Aufbau
 
+Um den Test Report der **Unit Tests** im Dashboard zu sehen, brauchen Sie das XUnit plugin.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/plugins.png)
+
+Zunächst legen wir ein neues Projekt an. Klicken Sie dazu auf "Element anlegen".
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step1.png)
+
+Geben Sie einen Namen ein und wählen Sie "Free Style Softwareprojekt bauen"
+Klicken Sie OK.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step2.png)
+
+Bei Source-Code-Management:
+Wählen Sie "Git" und geben Sie ihre Repository URL und den Branch an.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step3.png)
+
+> Wir benutzen den HTTPS Link, weil wir Jenkins auf dem LocalHost laufen lassen
+
+Bei Buildverfahren:
+Wählen Sie "Windows Batch-Datei ausführen"
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step4.png)
+
+**Unit Testing** Führen Sie hier das oben angegebene shellscript-file aus, welches die Unittests in einem Docker-Container ausführt. 
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
+
 #### DockerFile
 
 ````
@@ -43,41 +72,10 @@ docker run --name formula1-tests formula1
 docker cp formula1-tests:/src/Formula1.CoreTest/TestResults/unittestResults.xml . 
 ````
 
-Um den Test Report der **Unit Tests** im Dashboard zu sehen, brauchen Sie das XUnit plugin.
-
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/plugins.png)
-
-Zunächst legen wir ein neues Projekt an. Klicken Sie dazu auf "Element anlegen".
-
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step1.png)
-
-Geben Sie einen Namen ein und wählen Sie "Free Style Softwareprojekt bauen"
-Klicken Sie OK.
-
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step2.png)
-
-Bei Source-Code-Management:
-Wählen Sie "Git" und geben Sie ihre Repository URL und den Branch an.
-
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step3.png)
-
-> Wir benutzen den HTTPS Link, weil wir Jenkins auf dem LocalHost laufen lassen
-
-Bei Buildverfahren:
-Wählen Sie "Windows Batch-Datei ausführen"
-
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step4.png)
-
-**Unit Testing** Führen Sie hier das oben angegebene shellscript-file aus, welches die Unittests in einem Docker-Container ausführt. 
-
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
-
 Bei Post-Build-Aktionen:
 Wählen Sie "Publish xUnit test result report", dann bei Report Type "MSTest-Version N/A (default)", und geben Sie bei Includes Pattern "\*\*\unittestResults.xml" ein
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step6.png)
-
-
   
 ### oder
     
