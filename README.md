@@ -22,6 +22,17 @@ COPY . .
 RUN dotnet build
 RUN dotnet test --logger "trx;LogFileName=unittestResults.xml";exit 0
 ````
+
+Beachten Sie die letzte Zeile im Dockerfile:
+
+"RUN dotnet test --logger "trx;LogFileName=unittestResults.xml";exit 0"
+
+mit `dotnet test` werden die Tests ausgeführt
+
+mit `--logger "trx;LogFileName=unittestResults.xml"` werden die Testergebnisse im File "unittestResults.xml" gespeichert
+
+mit `exit 0` wird sicher gestellt, dass das Build erfolgreich ist, auch wenn nicht alle Tests erfolgreich sind.
+
 #### run-tests-docker.sh
 
 ````shell
@@ -57,11 +68,7 @@ Wählen Sie "Windows Batch-Datei ausführen"
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step4.png)
 
-**Unit Testing** Führen Sie hier das oben angegebene shellscript-file aus, welches die Unittests in einem Docker-Container ausführt. Beachten Sie die letzte Zeile im Dockerfile:
-
-"RUN dotnet test --logger "trx;LogFileName=unittestResults.xml";exit 0"
-
-mit "dotnet test" werden die Tests ausgeführt, mit --logger "trx;LogFileName=unittestResults.xml" werden die Testergebnisse im File "unittestResults.xml" gespeichert, und mit "exit 0" wird sicher gestellt, dass das build erfolgreich ist, auch wenn nicht alle Tests erfolgreich sind.
+**Unit Testing** Führen Sie hier das oben angegebene shellscript-file aus, welches die Unittests in einem Docker-Container ausführt. 
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5.png)
 
