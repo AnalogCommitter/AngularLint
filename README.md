@@ -13,6 +13,10 @@ Um den Test Report der **Unit Tests** im Dashboard zu sehen, brauchen Sie das XU
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/plugins.png)
 
+Für die Angular Lint Ergebnisse wird das **Warnings Next Generations** Plugin installiert.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/plugin.PNG)
+
 Zunächst legen wir ein neues Projekt an. Klicken Sie dazu auf "Element anlegen".
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step1.png)
@@ -79,9 +83,17 @@ Wählen Sie "Publish xUnit test result report", dann bei Report Type "MSTest-Ver
   
 ### oder
     
-**Linting** Geben Sie den Command "npm run lint" ein.
+**Linting** Geben Sie den Command 
+````npm i
+npm run lint --format pmd > result.xml
+tr -d '\n' < result.xml > results.xml
+sed -i -r -n -e "/<pmd version=\"tslint\">/,${p}" results.xml
+```` 
+ein.
 
-![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step5-lint.PNG)
+Bei Postbuild Actions wählen Sie TSLint aus und geben Ihr Output-File an.
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/postbuild.PNG)
 
 Speichern Sie die Konfigurationen.
 
@@ -98,6 +110,10 @@ Sobald es abgeschlossen ist, klicken Sie auf den Build.
 Hier sehen Sie, ob der Build erfolgreich war oder nicht:
 
 ![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/step10.png)
+
+So sieht dann das Dashboard des Plugins (klicken auf "TSLint Warnings") aus: 
+
+![](https://github.com/NathalieHerzog/AngularLint/blob/main/Images/warnings-dashboard.PNG)
 
 Wenn Sie auf "Testergebnis" klicken, sehen Sie, welche Tests erfolgreich waren und welche nicht. (Wenn der "Testergebnis" Tab nicht da ist, aktualisieren Sie die Seite.)
 
