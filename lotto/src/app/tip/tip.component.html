@@ -1,0 +1,22 @@
+<table>
+    <th>PLACE YOUR TIP</th>
+    <tr *ngFor="let items of data; let u = index">
+        <td *ngFor="let item of items; let i = index"
+            (click)="colorSquare(i, u)"
+            [ngStyle]="{'background-color':toggle[u][i] ? 'red' : 'white' }">
+            {{ data[u][i] }}
+        </td>
+    </tr>
+</table>
+
+<div *ngIf="tip.length == 6" class="center">
+    <input type="checkbox" [(ngModel)]="jokerCheck" name="joker" >
+    <label for="joker"> I want to have a Joker </label>
+</div>
+
+<div class="center">
+    <button mat-raised-button color="primary" (click)="sendTip()" [disabled]="tip.length != 6">Send</button>
+    <button (click)="router.navigate(['/get-result/'])" [hidden]="sendClicked == false">Check your Result!</button>
+    <h1>{{ recService.receiptNumber }}</h1>
+    <p>{{ timestamp }}</p>
+</div>

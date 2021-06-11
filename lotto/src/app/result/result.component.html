@@ -1,0 +1,9 @@
+<div class="center">
+    <p [hidden]="!sendClicked">Correct Numbers: {{ correctNumbers }}</p>
+    <p [hidden]="!sendClicked">Extra Number: {{ extraNumber }}</p>
+    <p [hidden]="!sendClicked">Result: {{ result }}</p>
+
+    <input type="text" [(ngModel)]="recService.receiptNumber">
+    <button mat-raised-button color="primary" (click)="receiveResults()">Send</button>
+    <button (click)="router.navigate(['/place-tip/'])">Back</button>
+</div>
