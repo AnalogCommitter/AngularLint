@@ -21,7 +21,7 @@ namespace Formula1.CoreTest
             Assert.AreEqual(21, races.Last().Number);
 
 
-            //Assert.AreEqual(-1, races.Last().Number);
+            Assert.AreEqual(-1, races.Last().Number);
         }
 
         /// <summary>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b4257f76-3f19-457b-95cd-cf6afabf6ecc" name="@buildkitsandbox 2021-06-08 07:41:30" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-06-08T07:41:30.3911209+00:00" queuing="2021-06-08T07:41:30.3911211+00:00" start="2021-06-08T07:41:29.4649528+00:00" finish="2021-06-08T07:41:30.4024822+00:00" />
+  <TestSettings name="default" id="24d91c11-c0fb-44a4-a3cb-d4eceb58a35f">
+    <Deployment runDeploymentRoot="_buildkitsandbox_2021-06-08_07_41_30" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="deff0eed-57d6-4753-a75f-14012fefb5ed" testId="25fa9f3a-beed-ba82-77ca-40faa9f49f37" testName="T02_LoadResultsFromResultsXmlTest" computerName="buildkitsandbox" duration="00:00:00.0267071" startTime="2021-06-08T07:41:30.1599572+00:00" endTime="2021-06-08T07:41:30.1870586+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="deff0eed-57d6-4753-a75f-14012fefb5ed" />
+    <UnitTestResult executionId="98455343-c950-4e25-8f1f-08e9e51a6f85" testId="164b4842-2ca6-7223-007f-520fc5fc3988" testName="T03_LoadVerstappenResults" computerName="buildkitsandbox" duration="00:00:00.0170732" startTime="2021-06-08T07:41:30.1871095+00:00" endTime="2021-06-08T07:41:30.2043093+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98455343-c950-4e25-8f1f-08e9e51a6f85" />
+    <UnitTestResult executionId="899e7613-f5c0-4476-bfa4-f53b8cca8885" testId="3d6739f0-0568-a2eb-a8df-4dd44333f2ea" testName="T01_LoadRacesFromRacesXmlTest" computerName="buildkitsandbox" duration="00:00:00.0121087" startTime="2021-06-08T07:41:30.1107853+00:00" endTime="2021-06-08T07:41:30.1518995+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="899e7613-f5c0-4476-bfa4-f53b8cca8885" />
+    <UnitTestResult executionId="403d49bc-ee66-4404-bd0f-12dbceafe3f0" testId="556e810e-09b0-37e0-0b14-a5eac290b3a3" testName="R02_GetTeamWmTableTest" computerName="buildkitsandbox" duration="00:00:00.0187322" startTime="2021-06-08T07:41:30.2260422+00:00" endTime="2021-06-08T07:41:30.2449192+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="403d49bc-ee66-4404-bd0f-12dbceafe3f0" />
+    <UnitTestResult executionId="ca6a74ab-5205-4830-b0e3-7690a86e3550" testId="dcc3e899-a1eb-3d30-28c3-1de131a7910b" testName="R03_GetFastestRoundsTeamTest" computerName="buildkitsandbox" duration="00:00:00.0000496" startTime="2021-06-08T07:41:30.2449559+00:00" endTime="2021-06-08T07:41:30.2452133+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca6a74ab-5205-4830-b0e3-7690a86e3550" />
+    <UnitTestResult executionId="9095dc42-a317-4da5-93ca-355e7632792c" testId="1a270bc1-a5d8-1370-47b7-efe0109298a5" testName="R03_GetFastestRoundsDriverTest" computerName="buildkitsandbox" duration="00:00:00.0000381" startTime="2021-06-08T07:41:30.2452305+00:00" endTime="2021-06-08T07:41:30.2453455+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9095dc42-a317-4da5-93ca-355e7632792c" />
+    <UnitTestResult executionId="e12ee1af-918c-4678-b0c0-8ea88de7b0e9" testId="afa23a28-ba2a-836e-ef7c-08b3f53c0162" testName="R01_GetDriverWmTableTest" computerName="buildkitsandbox" duration="00:00:00.0213782" startTime="2021-06-08T07:41:30.2043481+00:00" endTime="2021-06-08T07:41:30.2259722+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e12ee1af-918c-4678-b0c0-8ea88de7b0e9" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="T02_LoadResultsFromResultsXmlTest" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="25fa9f3a-beed-ba82-77ca-40faa9f49f37">
+      <Execution id="deff0eed-57d6-4753-a75f-14012fefb5ed" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ImportControllerTests" name="T02_LoadResultsFromResultsXmlTest" />
+    </UnitTest>
+    <UnitTest name="R01_GetDriverWmTableTest" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="afa23a28-ba2a-836e-ef7c-08b3f53c0162">
+      <Execution id="e12ee1af-918c-4678-b0c0-8ea88de7b0e9" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ResultCalculatorTests" name="R01_GetDriverWmTableTest" />
+    </UnitTest>
+    <UnitTest name="R03_GetFastestRoundsDriverTest" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="1a270bc1-a5d8-1370-47b7-efe0109298a5">
+      <Execution id="9095dc42-a317-4da5-93ca-355e7632792c" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ResultCalculatorTests" name="R03_GetFastestRoundsDriverTest" />
+    </UnitTest>
+    <UnitTest name="T01_LoadRacesFromRacesXmlTest" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="3d6739f0-0568-a2eb-a8df-4dd44333f2ea">
+      <Execution id="899e7613-f5c0-4476-bfa4-f53b8cca8885" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ImportControllerTests" name="T01_LoadRacesFromRacesXmlTest" />
+    </UnitTest>
+    <UnitTest name="R03_GetFastestRoundsTeamTest" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="dcc3e899-a1eb-3d30-28c3-1de131a7910b">
+      <Execution id="ca6a74ab-5205-4830-b0e3-7690a86e3550" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ResultCalculatorTests" name="R03_GetFastestRoundsTeamTest" />
+    </UnitTest>
+    <UnitTest name="R02_GetTeamWmTableTest" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="556e810e-09b0-37e0-0b14-a5eac290b3a3">
+      <Execution id="403d49bc-ee66-4404-bd0f-12dbceafe3f0" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ResultCalculatorTests" name="R02_GetTeamWmTableTest" />
+    </UnitTest>
+    <UnitTest name="T03_LoadVerstappenResults" storage="/src/formula1.coretest/bin/debug/netcoreapp3.1/formula1.coretest.dll" id="164b4842-2ca6-7223-007f-520fc5fc3988">
+      <Execution id="98455343-c950-4e25-8f1f-08e9e51a6f85" />
+      <TestMethod codeBase="/src/Formula1.CoreTest/bin/Debug/netcoreapp3.1/Formula1.CoreTest.dll" adapterTypeName="executor://mstestadapter/v2" className="Formula1.CoreTest.ImportControllerTests" name="T03_LoadVerstappenResults" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="25fa9f3a-beed-ba82-77ca-40faa9f49f37" executionId="deff0eed-57d6-4753-a75f-14012fefb5ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="164b4842-2ca6-7223-007f-520fc5fc3988" executionId="98455343-c950-4e25-8f1f-08e9e51a6f85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d6739f0-0568-a2eb-a8df-4dd44333f2ea" executionId="899e7613-f5c0-4476-bfa4-f53b8cca8885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="556e810e-09b0-37e0-0b14-a5eac290b3a3" executionId="403d49bc-ee66-4404-bd0f-12dbceafe3f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcc3e899-a1eb-3d30-28c3-1de131a7910b" executionId="ca6a74ab-5205-4830-b0e3-7690a86e3550" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a270bc1-a5d8-1370-47b7-efe0109298a5" executionId="9095dc42-a317-4da5-93ca-355e7632792c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afa23a28-ba2a-836e-ef7c-08b3f53c0162" executionId="e12ee1af-918c-4678-b0c0-8ea88de7b0e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
